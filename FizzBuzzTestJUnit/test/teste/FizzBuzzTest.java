@@ -83,6 +83,11 @@ public class FizzBuzzTest {
     public void sixtyReturnsFizzBuzz(){
         assertEquals("FizzBuzz", fb.evaluate(60));
     }
+    
+    @Test
+    public void fiftyFiveReturnsBuzz(){
+        assertEquals("Buzz", fb.evaluate(55));
+    }
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
